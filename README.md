@@ -35,11 +35,13 @@ This project was built using RStudio, **R 4.3+**. Required packages:
 install.packages(c("tidyverse", "ggplot2", "patchwork", "akima", "viridis", "eegUtils"))
 
 # Installation : 
+
   **1. Clone the repository :**
     git clone https://github.com/crnabnz/DataSci-in-R---EEG-Based-Record-linked-to-Self-Reported-Emotional-Distress.git
     cd DataSci-in-R---EEG-Based-Record-linked-to-Self-Reported-Emotional-Distress
     
   **2.1 Python Environment Setup :**
+  
     - **Option "Conda" (Recommended):** (I am not sure about this step)
       conda env create -f environment.yml
       conda activate eeg-env
@@ -48,7 +50,9 @@ install.packages(c("tidyverse", "ggplot2", "patchwork", "akima", "viridis", "eeg
       python -m venv venv
       source venv/bin/activate
       pip install -r requirements.txt
+      
   **2.2 R Environment Setup :**
+  
     Recommended  R packages: You can install R packages listed below in RStudio or your terminal:
     install.packages(c(
         "tidyverse",
@@ -60,12 +64,16 @@ install.packages(c("tidyverse", "ggplot2", "patchwork", "akima", "viridis", "eeg
         "rmarkdown"
     ))
   **3. Prepare Data :**
+  
     Due to licensing, the DREAMER dataset is not included in this repository.
       1. Download the DREAMER dataset from Kaggle.
       2. Unzip and place the files in the data/ directory.
+      
   **4. Run :**
+  
        Once the environments are ready and the dataset it in place:
        
 
-# References : 
+# References :
+
 Craddock, M. (2021). eegUtils: A utility package for manipulating and plotting EEG data in R. (https://github.com/craddm/eegUtils)
