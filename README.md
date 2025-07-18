@@ -24,7 +24,7 @@ We used the **DREAMER dataset** for EEG and self-reported VAD values and **Emoti
   For each band (alpha, beta, theta), we computed **Pearson correlation coefficients** between the EEG power at each electrode and the emotional dimensions (valence, arousal, dominance).
 
 - **Topographic Mapping**:  
-  Using interpolation (`akima::interp`) and custom plotting in `ggplot2`, we visualized correlation values on EEG topomaps, adding anatomical features (ears & nose) manually.
+  
 
 - **Exploratory Plots**:  
   Scatter plots were created per electrode to show individual-level correlations and regression lines with `p` and `r` values displayed.
