@@ -38,10 +38,12 @@ install.packages(c("tidyverse", "ggplot2", "patchwork", "akima", "viridis", "eeg
   **1. Clone the repository :**
     git clone https://github.com/crnabnz/DataSci-in-R---EEG-Based-Record-linked-to-Self-Reported-Emotional-Distress.git
     cd DataSci-in-R---EEG-Based-Record-linked-to-Self-Reported-Emotional-Distress
+    
   **2.1 Python Environment Setup :**
     - **Option "Conda" (Recommended):** (I am not sure about this step)
       conda env create -f environment.yml
       conda activate eeg-env
+      
     - **Option pip:**
       python -m venv venv
       source venv/bin/activate
