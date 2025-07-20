@@ -41,8 +41,8 @@ install.packages(c("tidyverse", "ggplot2", "patchwork", "akima", "viridis", "eeg
 # Installation : 
 
   **1. Clone the repository :**
-    git clone https://github.com/crnabnz/DataSci-in-R---EEG-Based-Record-linked-to-Self-Reported-Emotional-Distress.git
-    cd DataSci-in-R---EEG-Based-Record-linked-to-Self-Reported-Emotional-Distress
+    git clone https://github.com/crnabnz/EEG-Self-Reported-Emotion-Analysis-using-the-DREAMER-Dataset.git
+    cd EEG-Self-Reported-Emotion-Analysis-using-the-DREAMER-Dataset
   
   **2. R Environment Setup :**
   
