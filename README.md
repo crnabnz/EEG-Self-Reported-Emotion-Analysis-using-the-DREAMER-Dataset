@@ -25,6 +25,7 @@ We used the **DREAMER dataset** for EEG and self-reported VAD values and **Emoti
 
 - **Topographic Mapping**:
   Built-in topographic plotting via eegUtils::topoplot(), which offers biologically accurate and aesthetically clear EEG scalp visualizations with minimal setup. These were used for polished, high-resolution publication-ready figures.
+  https://www.mattcraddock.com/post/2017-07-16-eegutils-an-r-package-for-eeg_files/figure-html/load_package-1.png
 
 - **Exploratory Plots**:  
   Scatter plots were created per electrode to show individual-level correlations and regression lines with `p` and `r` values displayed.
