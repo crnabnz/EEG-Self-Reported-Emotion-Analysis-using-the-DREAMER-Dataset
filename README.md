@@ -64,7 +64,7 @@ install.packages(c("tidyverse", "ggplot2", "patchwork", "akima", "viridis", "eeg
   
        Once the environments are ready and the dataset it in place:
        Set your folder with its correct path as working directory or type:
-       > setwd("~/_foldername_")
+       > setwd("~/_EEG-Self-Reported-Emotion-Analysis-using-the-DREAMER-Dataset-main_")
        
 
 # References :
