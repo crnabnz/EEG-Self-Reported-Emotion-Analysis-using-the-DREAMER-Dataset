@@ -70,4 +70,5 @@ install.packages(c("tidyverse", "ggplot2", "patchwork", "akima", "viridis", "eeg
 # References :
 
 Craddock, M. (2021). eegUtils: A utility package for manipulating and plotting EEG data in R. (https://github.com/craddm/eegUtils)
+
 S. Katsigiannis and N. Ramzan, "DREAMER: A Database for Emotion Recognition Through EEG and ECG Signals From Wireless Low-cost Off-the-Shelf Devices," in IEEE Journal of Biomedical and Health Informatics, vol. 22, no. 1, pp. 98-107, Jan. 2018, doi: 10.1109/JBHI.2017.2688239. (https://ieeexplore.ieee.org/document/7887697)
