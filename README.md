@@ -2,6 +2,9 @@
 
 This repository contains all the analysis scripts, visualizations, and documentation for our project exploring the relationships between EEG power bands (Alpha, Beta, Theta) and emotion dimensions (Valence, Arousal, Dominance - VAD). The analysis is based on the DREAMER dataset and uses statistical correlation, topographic mapping, and custom EEG plotting.
 
+<img width="1919" height="892" alt="2025-07-20 20_40_06-Window" src="https://github.com/user-attachments/assets/23001905-b197-432b-9d5f-76e870c5f51d" />
+Figure 1) Beta Power and Arousal correlation displayed by using scatter plots and eegUtils topographic maps.
+
 The core objective of this project is to examine whether patterns in EEG activity can reliably predict emotional states, with a particular focus on anxiety detection. We investigate the following five research questions:
 
 1. Is high beta power associated with high arousal?
@@ -25,7 +28,7 @@ We used the **DREAMER dataset** for EEG and self-reported VAD values and **Emoti
 
 - **Topographic Mapping**:
   Built-in topographic plotting via eegUtils::topoplot(), which offers biologically accurate and aesthetically clear EEG scalp visualizations with minimal setup. These were used for polished, high-resolution publication-ready figures.
-  https://www.mattcraddock.com/post/2017-07-16-eegutils-an-r-package-for-eeg_files/figure-html/load_package-1.png
+  <img width="1344" height="960" alt="load_package-1" src="https://github.com/user-attachments/assets/145c5a76-b2f9-4623-825f-067b778d7e8b" />
 
 - **Exploratory Plots**:  
   Scatter plots were created per electrode to show individual-level correlations and regression lines with `p` and `r` values displayed.
